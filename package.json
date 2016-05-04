@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Detect whether or not an object is a Typed Array",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node test"
   },
