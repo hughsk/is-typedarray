@@ -7,10 +7,12 @@ var names = {
     '[object Int8Array]': true
   , '[object Int16Array]': true
   , '[object Int32Array]': true
+  , '[object BigInt64Array]': true
   , '[object Uint8Array]': true
   , '[object Uint8ClampedArray]': true
   , '[object Uint16Array]': true
   , '[object Uint32Array]': true
+  , '[object BigUint64Array]': true
   , '[object Float32Array]': true
   , '[object Float64Array]': true
 }
@@ -27,10 +29,12 @@ function isStrictTypedArray(arr) {
        arr instanceof Int8Array
     || arr instanceof Int16Array
     || arr instanceof Int32Array
+    || arr instanceof BigInt64Array
     || arr instanceof Uint8Array
     || arr instanceof Uint8ClampedArray
     || arr instanceof Uint16Array
     || arr instanceof Uint32Array
+    || arr instanceof BigUint64Array
     || arr instanceof Float32Array
     || arr instanceof Float64Array
   )
